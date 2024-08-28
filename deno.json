@@ -1,5 +1,8 @@
 {
   "tasks": {
     "run": "deno run -A main.ts"
+  },
+  "imports": {
+    "@std/cli": "jsr:@std/cli@^1.0.4"
   }
 }

@@ -1,7 +1,7 @@
-import { parse as argparse } from "https://deno.land/std@0.140.0/flags/mod.ts";
+import { parseArgs } from "@std/cli";
 
 export async function main(rawArgs: string[] = Deno.args) {
-  const args = argparse(rawArgs, {
+  const args = parseArgs(rawArgs, {
     alias: { hello: "H" },
     boolean: ["hello"],
     string: ["_"],
