@@ -1,6 +1,0 @@
-// https://deno.land/manual/getting_started/configuration_file
-{
-  "tasks": {
-    "run": "deno run -A app.ts"
-  }
-}
